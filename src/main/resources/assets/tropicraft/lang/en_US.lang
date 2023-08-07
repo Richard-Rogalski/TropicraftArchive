@@ -65,6 +65,7 @@ tile.tropicraft:flower_14.name=Bromeliad
 tile.tropicraft:flowerPot.name=Bamboo Flower Pot
 tile.tropicraft:coconut.name=Coconut
 tile.tropicraft:firePit.name=Fire Pit
+tile.tropicraft:airCompressor.name=Air Compressor
 tile.tropicraft:bambooChest.name=Bamboo Chest
 tile.tropicraft:leaf_Grapefruit.name=Grapefruit Leaves
 tile.tropicraft:leaf_Lemon.name=Lemon Leaves
@@ -90,6 +91,7 @@ tile.tropicraft:bambooChute.name=Bamboo Chute
 tile.tropicraft:koaChest.name=Koa Chest
 tile.tropicraft:purchasePlate.name=Koa Trader Purchase Plate
 tile.tropicraft:eihMixer.name=Drink Mixer
+tile.tropicraft:RainStopper.name=Rain Stopper
 
 # Item localizations
 item.tropicraft:ashenMask.squareZord.name=Ashen Mask: Square Zord
@@ -191,6 +193,19 @@ item.tropicraft:flowerPot.name=Bamboo Flower Pot
 item.tropicraft:fertilizer.name=Tropics Fertilizer
 item.tropicraft:coconut.name=Coconut
 item.tropicraft:coconutBomb.name=Coconut Bomb
+item.tropicraft:scubaTank.name=Scuba Tank
+item.tropicraft:dryHelmet.name=Dry Suit Headgear
+item.tropicraft:wetHelmet.name=Wet Suit Mask
+item.tropicraft:dryLeggings.name=Dry Suit Leggings
+item.tropicraft:wetLeggings.name=Wet Suit Leggings
+item.tropicraft:dryChestplate.name=Dry Suit Chestpiece
+item.tropicraft:wetChestplate.name=Wet Suit Chestpiece
+item.tropicraft:dryChestplateGear.name=Dry Suit Chestpiece w/Gear
+item.tropicraft:wetChestplateGear.name=Wet Suit Chestpiece w/Gear
+item.tropicraft:dryFlippers.name=Dry Suit Flippers
+item.tropicraft:wetFlippers.name=Wet Suit Flippers
+item.tropicraft:diveComputer.name=Dive Computer
+item.tropicraft:bcd.name=Buoyancy Compensator
 item.tropicraft:dart.name=Dart
 item.tropicraft:curare.name=Curare
 item.tropicraft:blowGun.name=Empty Blow Gun
@@ -256,7 +271,6 @@ entity.tropicraft.KoaHunter.name=Koa Hunter
 entity.tropicraft.KoaShaman.name=Koa Shaman
 entity.tropicraft.KoaTrader.name=Koa Trader
 entity.tropicraft.AshenHunter.name=Ashen Hunter
-
 entity.tropicraft.TreeFrogGreen.name=Green Tree Frog
 entity.tropicraft.TreeFrogBlue.name=Poisonous Blue Tree Frog
 entity.tropicraft.TreeFrogYellow.name=Poisonous Yellow Tree Frog
@@ -281,6 +295,19 @@ entity.tropicraft.LostMask.name=Lost Mask
 entity.tropicraft.WallMask.name=Wall Mask
 entity.tropicraft.WallShell.name=Wall Shell
 entity.tropicraft.SnareTrap.name=Snare Trap
+
+#Gui localizations
+gui.tropicraft:airType=Air Type
+gui.tropicraft:maxAirCapacity=Max Air Capacity
+gui.tropicraft:airRemaining=Air Remaining
+gui.tropicraft:useEfficiency=Use Efficiency
+gui.tropicraft:numTanks=# Tanks
+gui.tropicraft:suitType=Suit Type
+gui.tropicraft:temperature=Temp
+gui.tropicraft:currentDepth=Current Depth
+gui.tropicraft:maxDepth=Max
+gui.tropicraft:timeRemaining=Gas Time
+gui.tropicraft:amtRefined=Percentage Refined
 
 #Tooltip localizations
 dart.tropicraft:prefix.name=Dart of
