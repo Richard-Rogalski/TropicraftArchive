@@ -239,9 +239,9 @@ public class WorldGenEIH extends TCGenBase
 	    	case 1:
 	    		block = Blocks.obsidian;
 	    		break;
-	    	case 2:
-	    		block = Blocks.diamond_block;
-	    		break;
+	    	//case 2: // redstone time, baby
+	    	//	block = Blocks.diamond_block;
+	    	//	break;
 	    	case 3:
 	    		block = Blocks.iron_block;
 	    		break;

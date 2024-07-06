@@ -18,6 +18,7 @@ public class TropicraftWorldUtils {
 	
 	public static void teleportPlayer(EntityPlayerMP player)
 	{
+		/*
 		long time = System.currentTimeMillis();
 		if (player.dimension == TROPICS_DIMENSION_ID) {
 			TeleporterTropics tropicsTeleporter = new TeleporterTropics(MinecraftServer.getServer().worldServerForDimension(0));
@@ -33,6 +34,7 @@ public class TropicraftWorldUtils {
 		long time2 = System.currentTimeMillis();
 		
 		System.out.printf("It took %f seconds to teleport\n", (time2 - time) / 1000.0F);
+		*/
 	}
 	
 }
