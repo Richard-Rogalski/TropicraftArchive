@@ -477,7 +477,7 @@ public class ChunkProviderTropicraft implements IChunkProvider { //NOTE: THIS WI
 	}
 
 	public void generateOres(int x, int z) {
-		genStandardOre1(19, coalGen, 0, 128, x, z);
+		//genStandardOre1(19, coalGen, 0, 128, x, z);
 		genStandardOre1(10, ironGen, 0, 128 / 2,x,z);
 		genStandardOre1(15, zirconGen, 0, 128 / 4, x, z);
 		genStandardOre1(20, eudialyteGen, 0, 128 / 2,x,z);

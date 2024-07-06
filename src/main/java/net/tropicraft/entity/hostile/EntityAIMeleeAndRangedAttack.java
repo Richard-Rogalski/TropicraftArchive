@@ -26,7 +26,6 @@ public class EntityAIMeleeAndRangedAttack extends EntityAIBase
     private float shootCutoffRange;
     private float shootCutoffRangeSqr;
     private float meleeHitRange = 2F;
-    private static final String __OBFID = "CL_00001609";
 
     public EntityAIMeleeAndRangedAttack(IRangedAttackMob p_i1649_1_, double p_i1649_2_, int p_i1649_4_, float p_i1649_5_)
     {

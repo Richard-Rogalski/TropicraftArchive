@@ -119,9 +119,10 @@ public class EntityCoroAI extends EntityLand implements ICoroAI, IMob {
 		if (agent == null) agent = new AIAgent(this, false);
 	}
 	
-	@Override
+	@Override //rrogalski comment this function out?
 	public void updateAITasks() {
-		agent.updateAITasks();
+		if(agent != null)
+			agent.updateAITasks();
 	}
 	
 	@Override
@@ -138,10 +139,11 @@ public class EntityCoroAI extends EntityLand implements ICoroAI, IMob {
 		agent.readEntityFromNBT(par1nbtTagCompound);
 	}
 	
-	@Override
+	@Override //rrogalski
 	public void writeEntityToNBT(NBTTagCompound par1nbtTagCompound) {
 		super.writeEntityToNBT(par1nbtTagCompound);
-		agent.writeEntityToNBT(par1nbtTagCompound);
+		if (agent != null)
+			agent.writeEntityToNBT(par1nbtTagCompound);
 	}
 	
 	@Override
@@ -194,11 +196,12 @@ public class EntityCoroAI extends EntityLand implements ICoroAI, IMob {
 	
 	//special mob methods
 	@Override
-	public void onLivingUpdate() {
+	public void onLivingUpdate() { //rrogalski
 		super.onLivingUpdate();
-		agent.onLivingUpdateTick();
+		if(agent != null)
+			agent.onLivingUpdateTick();
 		
-		if (getAIAgent().activeFormation != null && this == getAIAgent().activeFormation.leader) {
+		if (getAIAgent() != null && getAIAgent().activeFormation != null && this == getAIAgent().activeFormation.leader) {
 			this.motionX *= 0.8D;
 			this.motionZ *= 0.8D;
 		}
